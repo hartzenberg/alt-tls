@@ -8,7 +8,7 @@
 // Generate a self-signed X.509 certificate for a TLS server. Outputs to
 // 'cert.pem' and 'key.pem' and will overwrite existing files.
 
-package main
+package tls
 
 import (
 	"crypto/ecdsa"
@@ -17,7 +17,7 @@ import (
 	"crypto/rand"
 	"crypto/rsa"
 	"github.com/hartzenberg/alt-tls/x509"
-	"crypto/x509/pkix"
+	"github.com/hartzenberg/alt-tls/x509/pkix"
 	"encoding/pem"
 	"flag"
 	"log"

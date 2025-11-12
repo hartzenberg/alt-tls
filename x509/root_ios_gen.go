@@ -14,7 +14,7 @@
 // opensource.apple.com so we embed them into the x509 package.
 //
 // Note that this ignores distrusted and revoked certificates.
-package main
+package x509
 
 import (
 	"archive/tar"

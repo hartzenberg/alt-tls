@@ -10,7 +10,7 @@ import (
 	"crypto/ed25519"
 	"crypto/elliptic"
 	"crypto/rsa"
-	"crypto/x509/pkix"
+	"github.com/hartzenberg/alt-tls/x509/pkix"
 	"encoding/asn1"
 	"errors"
 	"fmt"

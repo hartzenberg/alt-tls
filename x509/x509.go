@@ -13,7 +13,7 @@ import (
 	"crypto/elliptic"
 	"crypto/rsa"
 	"crypto/sha1"
-	"crypto/x509/pkix"
+	"github.com/hartzenberg/alt-tls/x509/pkix"
 	"encoding/asn1"
 	"encoding/pem"
 	"errors"
